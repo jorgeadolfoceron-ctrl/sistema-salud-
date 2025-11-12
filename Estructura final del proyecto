@@ -1,0 +1,13 @@
+sistema-salud/
+│
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── app.js
+├── modules/
+│   ├── pacientes.html
+│   └── citas.html
+├── database/
+│   └── db.json
+└── README.md
