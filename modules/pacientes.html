@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacientes</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Pacientes</h1>
+        <button id="logoutBtn" style="background-color:#dc3545;margin-bottom:15px;">Cerrar sesión</button>
+        <form id="patientForm">
+            <input type="text" id="name" placeholder="Nombre completo" required>
+            <input type="number" id="age" placeholder="Edad" required>
+            <input type="text" id="diagnosis" placeholder="Diagnóstico" required>
+            <button type="submit">Agregar Paciente</button>
+        </form>
+        <h2>Lista de Pacientes</h2>
+        <ul id="patientList"></ul>
+        <a href="citas.html">Ir a Citas</a>
+    </div>
+    <script src="../js/app.js"></script>
+</body>
+</html>
